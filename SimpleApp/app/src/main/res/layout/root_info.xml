@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@android:color/holo_orange_light">
+
+    <!-- Text Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Route Name:"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/rootname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:prompt="@string/rootName"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_weight="2.16"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/RootEnterOk"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#00f936"
+        android:textColorHighlight="#ff0000"
+        android:textColorHint="#66ff00"
+        android:textColorLink="#ff0000"
+        android:background="@android:color/holo_red_light"
+        android:clickable="true"
+        android:contextClickable="true" />
+
+
+</LinearLayout>

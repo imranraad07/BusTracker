@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@android:color/background_light">
+
+    <!-- Text Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Select Bus Time:"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/choitali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/rootChoitali"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_weight="2.16" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Select Stoppage:"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/cht_stoppage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/choitalistoppage"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_weight="2.16" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Enter"
+        android:src="@drawable/icon_ok"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:contentDescription=""
+        android:background="@android:color/holo_green_dark" />
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Simple University Bus</string>
+    <string name="wcmsg">WelCome!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">লগ ইন</string>
+    <string name="title_activity_bus_root">রুট সমূহ</string>
+    <string name="title_activity_my_location">কারেন্ট লোকেশন</string>
+    <string name="title_activity_item_list">স্টপেজ সমূহ</string>
+    <string name="title_activity_item_detail">স্টপেজ</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_result"></string>
+    <string name="select_your_root">রুটসমূহঃ</string>
+    <string name="spinner_title1">Up Schedule</string>
+    <string name="spinner_title2">Down Schedule</string>
+    <string name="busreg">Bus Registration Numbers:</string>
+    <string name="Student">Student</string>
+    <string name="Bus">Bus</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+    <string name="location_updated_message">Location updated</string>
+    <string name="rootboishakhi">বৈশাখি</string>
+    <string name="rootChoitali">চৈতালি</string>
+    <string name="roottorongo">তরঙ্গ</string>
+    <string name="rootshrabon">শ্রাবণ</string>
+    <string name="boishakhistoppage">বৈশাখি স্টপেজ</string>
+    <string name="choitalistoppage">চৈতালি স্টপেজ</string>
+    <string name="shrabonstoppage">শ্রাবণ স্টপেজ</string>
+    <string name="torongostoppage">তরঙ্গ স্টপেজ</string>
+    <string name="brootinfo">বৈশাখি রুট ইনফরমেশন</string>
+    <string name="chrootinfo">চৈতালি রুট ইনফরমেশন</string>
+    <string name="shrootinfo">শ্রাবণ রুট ইনফরমেশন</string>
+    <string name="torootinfo">তরঙ্গ রুট ইনফরমেশন</string>
+    <string name="rootName">রুটসমূহঃ</string>
+    <string name="upschedule">Up Schedule:</string>
+    <string name="downschedule">Down Schedule:</string>
+    <string name="selectid">Please Select the Bus ID:</string>
+    <string name="predictiontime">Prediction Time</string>
+    <string name="InMap">Bus Location in Map</string>
+
+
+    <string name="time_picker_example">Time Picker Example</string>
+    <string name="time_pick">Press Update Button</string>
+    <string name="time_save">Play!!</string>
+    <string name="time_selected"></string>
+    <string name="time_current">The Predicted Time is:</string>
+
+</resources>

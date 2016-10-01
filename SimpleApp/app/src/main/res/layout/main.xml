@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.imran.simpleapp.MainActivity"
+        android:clickable="true"
+        android:baselineAligned="true"
+        android:background="@android:color/white"
+        android:scrollIndicators="start|top">
+
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/wcmsg"
+            android:id="@+id/textView"
+            android:layout_weight="0.05"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo_du"
+            android:background="@android:color/holo_green_dark"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/Student"
+            android:text="@string/Student"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_light"
+            android:background="#ff9900"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:textColorHint="@android:color/background_light"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/user_logo" />
+
+        <Button
+            android:id="@+id/Bus"
+            android:text="@string/Bus"
+            android:drawableLeft="@drawable/bus_logo"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_light"
+            android:background="#ff9900"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@android:color/background_light"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:text="Find Stoppages"
+            android:id="@+id/find_stoppages"
+            android:drawableLeft="@drawable/location_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05"
+            android:checked="false"
+            android:background="#ff9900"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:text="Route Information"
+            android:id="@+id/root_info"
+            android:drawableLeft="@drawable/road_logo"
+            android:layout_weight="0.05"
+            android:checked="false"
+            android:background="#ff9900"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:id="@+id/logomellowhost"
+            android:src="@drawable/logo"
+            style="@style/Base.Widget.AppCompat.ButtonBar.AlertDialog"
+            android:accessibilityLiveRegion="@integer/google_play_services_version"
+            android:accessibilityTraversalAfter="@integer/status_bar_notification_info_maxnum"
+            android:accessibilityTraversalBefore="@integer/design_snackbar_text_max_lines"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#c61515"
+            android:layout_gravity="right"
+            android:layout_marginTop="90dp" />
+
+
+    </LinearLayout>
+</ScrollView>

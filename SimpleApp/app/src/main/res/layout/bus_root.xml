@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.imran.simpleapp.BusRoot"
+        android:clickable="true"
+        android:baselineAligned="true"
+        android:background="@android:color/white"
+        android:scrollIndicators="start|top">
+
+    <!-- Text Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dip"
+        android:text="@string/select_your_root"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_gravity="left"
+        android:clickable="false"
+        android:contextClickable="true" />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/YourRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:prompt="@string/select_your_root"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textStyle="bold"
+        android:drawSelectorOnTop="true"
+        android:layout_weight="2.16"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:layout_gravity="left"
+        android:importantForAccessibility="auto"
+        android:spinnerMode="dialog"
+        android:drawableLeft="@drawable/arrow_down"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Enter"
+        android:src="@drawable/select"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:contentDescription="" />
+
+    </LinearLayout>
+</ScrollView>

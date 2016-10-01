@@ -1,0 +1,35 @@
+-keep class com.example.imran.simpleapp.MainActivity { <init>(); }
+-keep class com.example.imran.simpleapp.Login { <init>(); }
+-keep class com.example.imran.simpleapp.BusRoot { <init>(); }
+-keep class com.example.imran.simpleapp.MyLocation { <init>(); }
+-keep class com.example.imran.simpleapp.ItemListActivity { <init>(); }
+-keep class com.example.imran.simpleapp.ItemDetailActivity { <init>(); }
+-keep class com.example.imran.simpleapp.RootInfoActivity { <init>(); }
+-keep class com.example.imran.simpleapp.allroots.boishakhi { <init>(); }
+-keep class com.example.imran.simpleapp.allroots.choitali { <init>(); }
+-keep class com.example.imran.simpleapp.allroots.shrabon { <init>(); }
+-keep class com.example.imran.simpleapp.allroots.torongo { <init>(); }
+-keep class com.example.imran.simpleapp.rootfeatures.feature_boishakhi { <init>(); }
+-keep class com.example.imran.simpleapp.rootfeatures.feature_choitali { <init>(); }
+-keep class com.example.imran.simpleapp.rootfeatures.feature_shrabon { <init>(); }
+-keep class com.example.imran.simpleapp.rootfeatures.feature_torongo { <init>(); }
+-keep class com.example.imran.simpleapp.SORRY { <init>(); }
+-keep class com.example.imran.simpleapp.PredictedTimeActivity { <init>(); }
+-keep class com.example.imran.simpleapp.ResultActivity { <init>(); }
+-keep class com.example.imran.simpleapp.MapsActivity { <init>(); }
+-keep class com.example.imran.simpleapp.AddNotice { <init>(); }
+-keep class com.example.imran.simpleapp.NewNotice { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
